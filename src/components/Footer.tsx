@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Mail, Phone } from 'lucide-react';
+import { Instagram, Facebook, Mail, Phone, MessageCircle } from 'lucide-react';
 
 const TikTokIcon = () => (
   <svg
@@ -45,6 +45,16 @@ export default function Footer() {
               >
                 <Phone className="w-5 h-5" strokeWidth={1} />
                 <span className="font-light">082 310 7911</span>
+              </a>
+              <a
+                href="https://api.whatsapp.com/send?phone=+27823107911&fbclid=IwRlRTSAOGyUhleHRuA2FlbQIxMABzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5CGNhbGxzaXRlATIAAR483p5nmOA6VZZyev_abm8sJsejvBVfCJb7ILfP34Hh1t6-VOrs0mHO777S2A_aem_V_nSdyNfdj5YsRxVh0QhLA"
+                className="flex items-center gap-3 text-[#a89f8c] hover:text-[#D4AF37] transition-colors duration-300"
+                aria-label="WhatsApp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MessageCircle className="w-5 h-5" strokeWidth={1} />
+                <span className="font-light">WhatsApp</span>
               </a>
             </div>
           </div>
