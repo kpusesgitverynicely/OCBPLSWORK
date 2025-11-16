@@ -28,11 +28,16 @@ export default function Hero() {
             OCB Events curates old-money inspired gatherings defined by elegance, intention, and unforgettable detail.
           </p>
 
-          <button className="group relative px-12 py-5 bg-gradient-to-r from-[#D4AF37] to-[#C5A028] text-[#1a1a1a] text-lg tracking-widest uppercase font-light overflow-hidden transition-all duration-500 hover:shadow-2xl hover:shadow-[#D4AF37]/50">
+          <a
+            href="https://api.whatsapp.com/send?phone=+27823107911&fbclid=IwRlRTSAOGyUhleHRuA2FlbQIxMABzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5CGNhbGxzaXRlATIAAR483p5nmOA6VZZyev_abm8sJsejvBVfCJb7ILfP34Hh1t6-VOrs0mHO777S2A_aem_V_nSdyNfdj5YsRxVh0QhLA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative inline-block px-12 py-5 bg-gradient-to-r from-[#D4AF37] to-[#C5A028] text-[#1a1a1a] text-lg tracking-widest uppercase font-light overflow-hidden transition-all duration-500 hover:shadow-2xl hover:shadow-[#D4AF37]/50"
+          >
             <span className="relative z-10">Book a Consultation</span>
             <div className="absolute inset-0 bg-gradient-to-r from-[#F5EFE0] to-[#D4AF37] translate-y-full group-hover:translate-y-0 transition-transform duration-500" />
             <span className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iZ29sZCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgd2lkdGg9IjQiIGhlaWdodD0iNCI+PHBhdGggZD0iTTAgMGg0djRIMHoiIGZpbGw9Im5vbmUiLz48cGF0aCBkPSJNMCAyaDJWMEgyeiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjEpIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dvbGQpIi8+PC9zdmc+')] bg-repeat" />
-          </button>
+          </a>
         </div>
       </div>
 

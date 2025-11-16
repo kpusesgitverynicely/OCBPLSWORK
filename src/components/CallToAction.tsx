@@ -25,13 +25,18 @@ export default function CallToAction() {
           Let us craft an experience that transcends the ordinary. Your celebration deserves nothing less than perfection.
         </p>
 
-        <button className="group relative px-14 py-6 bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] text-lg tracking-widest uppercase font-light overflow-hidden transition-all duration-500 hover:text-[#1a1a1a] hover:border-[#F5EFE0]">
+        <a
+          href="https://api.whatsapp.com/send?phone=+27823107911&fbclid=IwRlRTSAOGyUhleHRuA2FlbQIxMABzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5CGNhbGxzaXRlATIAAR483p5nmOA6VZZyev_abm8sJsejvBVfCJb7ILfP34Hh1t6-VOrs0mHO777S2A_aem_V_nSdyNfdj5YsRxVh0QhLA"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative inline-block px-14 py-6 bg-transparent border-2 border-[#D4AF37] text-[#D4AF37] text-lg tracking-widest uppercase font-light overflow-hidden transition-all duration-500 hover:text-[#1a1a1a] hover:border-[#F5EFE0]"
+        >
           <span className="relative z-10">Schedule a Private Consultation</span>
           <div className="absolute inset-0 bg-gradient-to-r from-[#D4AF37] to-[#F5EFE0] translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500" />
           <div className="absolute inset-0 opacity-0 group-hover:opacity-30 transition-opacity duration-500">
             <div className="absolute inset-0 animate-shimmer bg-gradient-to-r from-transparent via-white to-transparent" />
           </div>
-        </button>
+        </a>
       </div>
 
       <style>{`
